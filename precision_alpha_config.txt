@@ -1,0 +1,5 @@
+# Precision Alpha Configuration File
+
+INPUT_FILE = precision_alpha_timeseries.csv
+DATE_COLUMN = Date
+DATE_FORMAT = %Y-%m-%d
