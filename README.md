@@ -4,7 +4,9 @@ StockDataPortfolio is a workflow for downloading, organizing, and analyzing stoc
 
 ## Features
 - Download and organize daily closing price data for individual tickers or multi-symbol portfolios.  
-- Generate CSVs compatible with Precision Alpha batch jobs.  
+- Generate CSVs compatible with Precision Alpha batch jobs.
+    - `config_*.ini` → binary up/down movement analysis  
+    - `measure_*.ini` → value-based analysis  
 - Create config files for binary analysis and measure files for value-based analysis.  
 - Merge stock data for multi-symbol portfolio backtesting.  
 - Automate parts of the data preparation process with included Python scripts.  
